@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+        <!-- Tax template for sale and purchase -->
+        <record id="sale_tax_template" model="account.tax.template">
+            <field name="chart_template_id" ref="ph_chart_template"/>
+            <field name="name">VAT 12%</field>
+            <field name="amount">12</field>
+            <field name="type_tax_use">sale</field>
+            <field name="account_id" ref="conf_iva"/>
+            <field name="refund_account_id" ref="conf_iva"/>
+        </record>
+
+       <record id="purchase_tax_template" model="account.tax.template">
+            <field name="chart_template_id" ref="ph_chart_template"/>
+            <field name="name">Purchase VAT 12%</field>
+            <field name="amount">12</field>
+            <field name="type_tax_use">purchase</field>
+            <field name="account_id" ref="conf_ova"/>
+            <field name="refund_account_id" ref="conf_ova"/>
+        </record>
+
+    </data>
+</openerp>
