@@ -25,14 +25,10 @@ This is the latest PH OpenERP localisation necessary to run OpenERP accounting f
         'data/res_country_data.xml',
         'data/res.country.state.csv',
         
-        'data/account_chart_template.xml',
-        'data/account_account_template.xml',
-
-        'data/set_account_on_chart_template.xml',
-
-        'data/account_tax_template.xml',
-
-        'data/account_chart_template.yml',
+        'data/l10n_ph_chart_data.xml',
+        'data/account_data.xml',
+        'data/account_chart_template_data.xml',
+        'data/account_chart_template_data.yml',
     ],
     'demo' : [],
     'installable': 'True',
