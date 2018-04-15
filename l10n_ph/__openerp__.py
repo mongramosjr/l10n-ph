@@ -24,6 +24,7 @@ This is the latest PH OpenERP localisation necessary to run OpenERP accounting f
     'data': [
         'data/res_country_data.xml',
         'data/res.country.state.csv',
+	'data/res_currency_data.xml',
         
         'data/account_chart_template.xml',
         'data/account_account_template.xml',
